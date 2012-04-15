@@ -138,6 +138,7 @@
    "index"
    "our-story"
    "tumblr"
+   "welcome"
    "worship"))
 
 ;; main :: unit -> unit

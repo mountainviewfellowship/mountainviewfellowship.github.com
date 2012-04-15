@@ -1,0 +1,47 @@
+<page>
+  <block id="title">Weclome to Mountain View Fellowship</block>
+  <block id="head"></block>
+  <block id="main">
+    <h1>Welcome to Mountain View Fellowship</h1>
+    <p>An authentic Christian Community build upon receiving and
+    sharing the love of Jesus</p>
+    <div class="table" style="width: 100%">
+      <div>
+        <div>
+          <h2>Service Times</h2>
+          <table>
+            <tr>
+              <td>Sunday Worship</td>
+              <td>9:45 AM</td>
+            </tr>
+            <tr>
+              <td>Sunday Fellowship</td>
+              <td>10:45 AM</td>
+            </tr>
+            <tr>
+              <td>Sunday School</td>
+              <td>11:00 AM</td>
+            </tr>
+            <tr>
+              <td>Wednesday Prayer</td>
+              <td>7:00 PM</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <h2>Location</h2>
+          <address>8601 McGaheysville Rd
+          McGaheysville, VA 22840</address>
+          <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=8601+McGaheysville+Rd+McGaheysville,+VA+22840&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=44.47475,99.84375&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=8601+McGaheysville+Rd,+McGaheysville,+Virginia+22840&amp;ll=38.365582,-78.756315&amp;spn=0.005401,0.012188&amp;z=14">Map</a>
+        </div>
+      </div>
+    </div>
+  </block>
+  <block id="side">
+    <div>
+      <img src="images/church.png" style="margin: 0.25em; border: 1px solid black" alt="Our story" />
+      <div style="font-size: larger">Does God answer prayer?</div>
+      <div>Click <a href="our-story.html">here</a> and read our story ...</div>
+    </div>
+  </block>
+</page>

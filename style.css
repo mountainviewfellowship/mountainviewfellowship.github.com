@@ -1,0 +1,263 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+html
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    height: 100%;
+    width: 100%;
+    font-family: Constantia, Georgia, serif;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #0a7ad5;
+    background-image: linear-gradient(bottom, rgb(209,228,247) 25%, rgb(114,176,231) 63%, rgb(10,122,213) 82%);
+    background-image: -o-linear-gradient(bottom, rgb(209,228,247) 25%, rgb(114,176,231) 63%, rgb(10,122,213) 82%);
+    background-image: -moz-linear-gradient(bottom, rgb(209,228,247) 25%, rgb(114,176,231) 63%, rgb(10,122,213) 82%);
+    background-image: -webkit-linear-gradient(bottom, rgb(209,228,247) 25%, rgb(114,176,231) 63%, rgb(10,122,213) 82%);
+    background-image: -ms-linear-gradient(bottom, rgb(209,228,247) 25%, rgb(114,176,231) 63%, rgb(10,122,213) 82%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.25, rgb(209,228,247)),
+        color-stop(0.63, rgb(114,176,231)),
+        color-stop(0.82, rgb(10,122,213))
+    );
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: seagreen;
+}
+
+
+.mvf-body
+{
+    margin: auto;
+    width: 60em;
+    background: white;
+    min-height: 480px;
+}
+
+.mvf-main
+{
+    padding: 0 1em;
+}
+
+.mvf-header
+{
+    border-bottom: 1px dotted #ccccff;
+    padding: 0.5em 1em;
+    padding-bottom: 0;
+}
+
+.mvf-header > div
+{
+    float: right;
+    font-size: large;
+    margin-top: 0.5em;
+    font-style: italic;
+}
+
+.mvf-main
+{
+    width: 45em;
+}
+
+
+.table
+{
+    display: table;
+}
+
+.table > div
+{
+    display: table-row;
+}
+
+.table > div > div
+{
+    vertical-align: top;
+    display: table-cell;
+}
+
+.mvf-menu
+{
+    display: table;
+    width: 60em;
+    margin: auto;
+}
+
+.mvf-menu ul
+{
+    margin: 0;
+    padding: 0;
+    display: table-row;
+}
+
+.mvf-menu ul li
+{
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    display: table-cell;
+}
+
+.mvf-menu ul li a
+{
+    border-radius: 5px 5px 0 0;
+    font-variant:small-caps;
+    text-align: center;
+    color: #eee;
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.mvf-menu ul li a.important
+{
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    background: orange;
+}
+
+.mvf-menu ul li a:hover
+{
+    background: #3366bb;
+}
+
+.mvf-top
+{
+    background-color: navy;
+    width: 100%;
+}
+
+
+ul
+{
+    list-style: circle;
+}
+
+a
+{
+    text-decoration: none;
+    color: #0a7ad5;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #0a88ff;
+}
+
+.mvf-side
+{
+    width: 15em;
+    padding: 0 1em;
+}
+
+.mvf-footer
+{
+    color: #ddddff;
+    background-image: linear-gradient(bottom, rgb(25,25,75) 3%, rgb(0,0,0) 75%);
+    background-image: -o-linear-gradient(bottom, rgb(25,25,75) 3%, rgb(0,0,0) 75%);
+    background-image: -moz-linear-gradient(bottom, rgb(25,25,75) 3%, rgb(0,0,0) 75%);
+    background-image: -webkit-linear-gradient(bottom, rgb(25,25,75) 3%, rgb(0,0,0) 75%);
+    background-image: -ms-linear-gradient(bottom, rgb(25,25,75) 3%, rgb(0,0,0) 75%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.03, rgb(25,25,75)),
+        color-stop(0.75, rgb(0,0,0))
+    );
+}
+
+.mvf-footer a
+{
+    color: limegreen;
+}
+
+.mvf-footer a:hover
+{
+    color: lime;
+}
+
+.mvf-footer h1, .mvf-footer h2, .mvf-footer h3, .mvf-footer h4
+{
+    color: yellow;
+    font-size: larger;
+}
+
+.mvf-footer > div > div.table
+{
+    font-size: smaller;
+    margin: auto;
+}
+
+.mvf-footer > div > div.table > div > div
+{
+    padding: 0 1em;
+    min-width: 12em;
+    max-width: 20em;
+}
+
+.mvf-footer dt
+{
+    float: left;
+    width: 8em;
+}
+
+.mvf-footer dd
+{
+    float: right;
+}
+
+.mvf-footer > div
+{
+    padding-bottom: 1em;
+    width: 60em;
+    margin: auto;
+    background: #08081f;
+}
+
+address
+{
+    white-space: pre-line;
+    font-style: normal;
+}
+
+.avatar img
+{
+    box-shadow: 2px 2px 2px 2px #336;
+    margin: 0.5em 0;
+}
+
+.buttons
+{
+    margin-top: 2em;
+}
+
+.buttons a
+{
+    display: block;
+    padding-right: 1em;
+}
+
+a img
+{
+    border: none;
+}
+

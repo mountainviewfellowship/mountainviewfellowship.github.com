@@ -1,0 +1,17 @@
+<page>
+  <block id="title">Worship</block>
+  <block id="head">
+  </block>
+  <block id="main">
+    <h2>Service Times</h2>
+    <ul>
+      <li>Sunday Worship: 9:45 AM</li>
+      <li>Sunday Fellowship: 10:45 AM</li>
+      <li>Sunday School: 11:00 AM</li>
+      <li>Wednesday Prayer: 7:00 PM</li>
+    </ul>
+  </block>
+  <block id="side">
+  </block>  
+</page>
+

@@ -14,7 +14,6 @@
     {/block:Description}
     <link rel="shortcut icon" href="{Favicon}" />
     <link rel="apple-touch-icon" href="{PortraitURL-128}"/>
-    <link rel="alternate" type="application/rss+xml" href="{RSS}" />
   </block>
   <block id="main">
     {block:Posts}

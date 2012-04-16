@@ -30,25 +30,10 @@
       {/block:Video}
 
       {block:Audio}
-      {block:IfShowAlbumArtOnAudioPosts}
-      {block:AlbumArt}
-      <div class="album-art">
-	<img src="{AlbumArtURL}" alt="{block:Artist}{Artist}{/block:Artist}{block:TrackName} - {TrackName}{/block:TrackName}" />
-      </div>
-      {/block:AlbumArt}
-      {/block:IfShowAlbumArtOnAudioPosts}
       <div class="audio">
+	{block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
 	<div class="player">{AudioPlayerGrey}</div>
-	<div class="meta">
-	  {PlayCountWithLabel}
-	  {block:ExternalAudio}
-	  <span class="download-external-audio"> &bull;
-	  <a href="{ExternalAudioURL}">{lang:Download}</a>
-	  </span>
-	  {/block:ExternalAudio}
-	</div>
       </div>
-      {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
       {/block:Audio}
 
       {block:Quote}

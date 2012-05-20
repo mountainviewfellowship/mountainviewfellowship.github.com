@@ -105,6 +105,8 @@ h1, h2, h3, h4, h5, h6
     font-size: 85%;
     cursor: pointer;
 
+    background-color: #000032;
+
     background-image: linear-gradient(bottom, rgb(0,0,50) 3%, rgb(0,50,125) 95%);
     background-image: -o-linear-gradient(bottom, rgb(0,0,50) 3%, rgb(0,50,125) 95%);
     background-image: -moz-linear-gradient(bottom, rgb(0,0,50) 3%, rgb(0,50,125) 95%);
@@ -118,6 +120,9 @@ h1, h2, h3, h4, h5, h6
         color-stop(0.03, rgb(0,0,50)),
         color-stop(0.75, rgb(0,50,125))
     );
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000032', endColorstr='#003280');
+    zoom:1;
 
     border-left: 1px solid #003;
     border-right: 1px solid #006;

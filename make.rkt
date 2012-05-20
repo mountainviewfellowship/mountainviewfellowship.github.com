@@ -132,6 +132,7 @@
 ;; Lists the name of html pages that have to be generated.
 (define pages
   (list
+   "bulletins"
    "calendar"
    "contact"
    "beliefs"

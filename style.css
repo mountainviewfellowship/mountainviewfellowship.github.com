@@ -31,6 +31,8 @@ body
         color-stop(0.63, rgb(114,176,231)),
         color-stop(0.82, rgb(10,122,213))
     );
+
+    zoom: 1;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -278,11 +280,16 @@ a:hover
     width: 60em;
     margin: auto;
 
+    background-color: #003264;
+
     background-image: linear-gradient(bottom, rgb(0,40,80) 3%, rgb(0,25,50) 75%);
     background-image: -o-linear-gradient(bottom, rgb(0,40,80) 3%, rgb(0,25,50) 75%);
     background-image: -moz-linear-gradient(bottom, rgb(0,40,80) 3%, rgb(0,25,50) 75%);
     background-image: -webkit-linear-gradient(bottom, rgb(0,40,80) 3%, rgb(0,25,50) 75%);
     background-image: -ms-linear-gradient(bottom, rgb(0,40,80) 3%, rgb(0,25,50) 75%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003264', endColorstr='#001932');
+    zoom:1;
 
     background-image: -webkit-gradient(
         linear,

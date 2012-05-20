@@ -31,6 +31,7 @@ body
         color-stop(0.63, rgb(114,176,231)),
         color-stop(0.82, rgb(10,122,213))
     );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a7ad5', endColorstr='#eeffff');
 
     zoom: 1;
 }

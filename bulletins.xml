@@ -1,3 +1,4 @@
+
 <page>
   <block id="title">Bulletins</block>
   <block id="head">
@@ -5,6 +6,7 @@
   <block id="main">
     <h2>Sunday Bulletins</h2>
     <ul>
+      <li><a href="bulletins/MVF-10072012.doc">October 7, 2012</a></li>
       <li><a href="bulletins/MVF-05202012.doc">May 20, 2012</a></li>
       <li><a href="bulletins/MVF-05062012.doc">May 06, 2012</a></li>
     </ul>

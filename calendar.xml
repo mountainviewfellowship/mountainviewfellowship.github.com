@@ -1,9 +1,13 @@
 <page>
   <block id="title">Church Calendar</block>
   <block id="head">
+    <style type="text/css">
+      div.mvf-side {display: none !important}
+      div.mvf-main {width: 60em !important}
+    </style>
   </block>
   <block id="main">
-    <p><iframe style="border:none;overflow:hidden" height="600" src="https://www.google.com/calendar/embed?src=v33sknb9o72h0oobqeiqlbqf6s%40group.calendar.google.com&amp;ctz=America/New_York" width="640"></iframe></p>
+    <iframe style="border:none;overflow:hidden" width="100%" height="600" src="https://www.google.com/calendar/embed?src=v33sknb9o72h0oobqeiqlbqf6s%40group.calendar.google.com&amp;ctz=America/New_York" ></iframe>
   </block>
   <block id="side">
   </block>

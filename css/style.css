@@ -8,7 +8,24 @@
 body {
     font-family: 'Fira Sans', sans-serif;
     line-height: 146%;
-    font-size: large;
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: large; /* 1.5x default size */
+    }
+}
+
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: medium; /* 1.2x default size */
+    }
+}
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: small; /* 0.8x default size */
+    }
 }
 
 p, .text-flow {
@@ -22,4 +39,8 @@ p, .text-flow {
 
 .main {
     margin-bottom: 3em;
+}
+
+.row {
+    margin-bottom: 1em;
 }

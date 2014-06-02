@@ -3,15 +3,41 @@
   <block id="head">
   </block>
   <block id="main">
-    <h2>Service Times</h2>
-    <ul>
-      <li>Sunday Worship: 9:45 AM</li>
-      <li>Sunday Fellowship: 10:45 AM</li>
-      <li>Sunday School: 11:00 AM</li>
-      <li>Wednesday Prayer: 7:00 PM</li>
-    </ul>
+    <div class="container">
+      <h1>Service Times</h1>
+      <div class="row">
+        <div class="col-md-7">
+          <table class="table table-striped">
+            <tr>
+              <td>Sunday Worship</td>
+              <td>9:45</td>
+            </tr>
+            <tr>
+              <td>Sunday Fellowship</td>
+              <td>10:45</td>
+            </tr>
+            <tr>
+              <td>Sunday School</td>
+              <td>11:00</td>
+            </tr>
+            <tr>
+              <td>Wednesday Prayer</td>
+              <td>7:00 PM</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-5">
+          <p>
+            Please check our calendar for additional events.
+          </p>
+          <div>
+            <a href="/calendar.html" class="btn btn-lg btn-primary">
+              Calendar
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </block>
-  <block id="side">
-  </block>  
 </page>
 

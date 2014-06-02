@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Fira Sans'), url(/fonts/FiraSans-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 146%;
+    font-size: large;
+}
+
+p, .text-flow {
+    max-width: 30em;
+}
+
+.col-padded {
+    padding-top: 1em;
+    padding-right: 2em;
+}
+
+.main {
+    margin-bottom: 3em;
+}

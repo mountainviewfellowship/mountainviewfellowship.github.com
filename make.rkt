@@ -7,13 +7,24 @@
 
 #lang racket
 
-(require make xml)
+(require make
+         web-server/servlet-env
+         web-server/http
+         web-server/dispatchers/dispatch
+         xml)
 
 ;; read-xml-file :: string -> document
 ;;
 ;; Reads an XML file.
 (define (read-xml-file file)
-  (call-with-input-file file read-xml))
+  (define (skip-bom input)
+    (match (list (peek-byte input) (peek-byte input 1) (peek-byte input 2))
+      [(list 239 187 191)
+       (void (read-bytes 3 input))]
+      [_ (void)]))
+  (call-with-input-file file (lambda (port)
+                               (skip-bom port)
+                               (read-xml port))))
 
 ;; write-html-file :: string * content -> unit
 ;;
@@ -142,10 +153,20 @@
    "welcome"
    "worship"))
 
-;; main :: unit -> unit
+;; serve-site :: unit -> unit
+;;
+;; Serves current directory at 8080 as static files.
+(define (serve-site)
+  (serve/servlet (lambda (_) (next-dispatcher))
+               #:servlet-path "/"
+               #:extra-files-paths (list ".")
+               #:port 8080
+               #:launch-browser? #f))
+
+;; rebuild :: unit -> unit
 ;;
 ;; Generates all pages using make.
-(define (main)
+(define (rebuild)
   (let*
       ((++ string-append)
        (page
@@ -164,5 +185,14 @@
       (list "all-pages"
             (map (lambda (n) (++ n ".html")) pages))
       (map page pages)))))
+
+(define (main)
+  (match (current-command-line-arguments)
+    [(vector "serve")
+     (serve-site)]
+    [(vector)
+     (rebuild)]
+    [_
+     (display "Usage: racket make.rkt serve OR racket make.rkt")]))
 
 (main)

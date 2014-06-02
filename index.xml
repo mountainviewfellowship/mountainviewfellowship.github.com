@@ -2,46 +2,76 @@
   <block id="title">Welcome to Mountain View Fellowship</block>
   <block id="head"></block>
   <block id="main">
-    <h1>Welcome to Mountain View Fellowship</h1>
-    <p>An authentic Christian Community build upon receiving and
-    sharing the love of Jesus</p>
-    <div class="table" style="width: 100%">
-      <div>
-        <div>
-          <h2>Service Times</h2>
-          <table>
-            <tr>
-              <td>Sunday Worship</td>
-              <td>9:45 AM</td>
-            </tr>
-            <tr>
-              <td>Sunday Fellowship</td>
-              <td>10:45 AM</td>
-            </tr>
-            <tr>
-              <td>Sunday School</td>
-              <td>11:00 AM</td>
-            </tr>
-            <tr>
-              <td>Wednesday Prayer</td>
-              <td>7:00 PM</td>
-            </tr>
-          </table>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="/">
+            <img alt="Mountain View Fellowship Church of the Brethren" src="/images/mountain-view.png" class="img-responsive" />
+          </a>
         </div>
-        <div>
-          <h2>Location</h2>
-          <address>8601 McGaheysville Rd
-          McGaheysville, VA 22840</address>
-          <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=8601+McGaheysville+Rd+McGaheysville,+VA+22840&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=44.47475,99.84375&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=8601+McGaheysville+Rd,+McGaheysville,+Virginia+22840&amp;ll=38.365582,-78.756315&amp;spn=0.005401,0.012188&amp;z=14">Map</a>
+        <div class="col-md-8 text-right">
+          <div>Accept the Love ........ Share the Vision</div>
         </div>
       </div>
-    </div>
-  </block>
-  <block id="side">
-    <div>
-      <img src="images/church.png" style="margin: 0.25em; border: 1px solid black" alt="Our story" />
-      <div style="font-size: larger">Does God answer prayer?</div>
-      <div>Click <a href="our-story.html">here</a> and read our story ...</div>
+      <hr />
+      <div class="row">
+        <div class="col-md-8">
+          <p>Welcome to Mountain View Fellowship!</p>
+          <p>We strive to be an authentic Christian Community build upon receiving and sharing the love of Jesus.</p>
+          <div class="row">
+            <div class="col-md-6 col-padded">
+              <h3>Service Times</h3>
+              <table class="table">
+                <tr>
+                  <td>Sunday Worship</td>
+                  <td>9:45</td>
+                </tr>
+                <tr>
+                  <td>Sunday Fellowship</td>
+                  <td>10:45</td>
+                </tr>
+                <tr>
+                  <td>Sunday School</td>
+                  <td>11:00</td>
+                </tr>
+                <tr>
+                  <td>Wednesday Prayer</td>
+                  <td>7:00 PM</td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-md-6 col-padded">
+              <h3>Location</h3>
+              <address>
+                <strong>Mountain View Fellowship</strong> <br />
+                Church of the Brethren <br />
+                8601 McGaheysville Rd <br />
+                McGaheysville, VA 22840
+              </address>
+              <p>
+                Phone: 540-289-9008<br />
+                Pastor: Wayne Pence
+              </p>
+              <a class="btn btn-default btn-lg" href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=8601+McGaheysville+Rd+McGaheysville,+VA+22840&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=44.47475,99.84375&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=8601+McGaheysville+Rd,+McGaheysville,+Virginia+22840&amp;ll=38.365582,-78.756315&amp;spn=0.005401,0.012188&amp;z=14">Map</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              News
+            </div>
+            <div class="panel-body">
+              <p>
+                <strong>June 1, 2014</strong>: Registration for Vacation Bible School is now open!
+              </p>
+              <img class="img-responsive" src="/images/vbs-2014.png" alt="Weird Animals: Vacation Bible School" />
+              <hr/>
+              <a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1p0Cv_EaNNuX8HOjZDnpRd8qcX_fqof_Ps-qvq2T2Tfs/viewform">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </block>
 </page>
